@@ -1,0 +1,114 @@
+.skills {
+    position: absolute;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    bottom: 11.5rem;
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 1140px;
+    height: 120%;
+    background-color: black;
+    border: solid 0.25rem gold;
+    padding: 1rem;
+}
+
+.skills-container h1 {
+    margin-bottom: 1rem;
+}
+
+.icon {
+    
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+.skills-list {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 460px) {
+    .skills-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: 13rem;
+        background-color: black;
+        border: solid 0.25rem gold;
+       
+    }
+
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .icon {
+        width: 2rem;
+        
+    }
+
+  
+    
+}
+
+@media screen and (max-width: 840px) {
+    .skills-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 90%;
+        height: 13rem;
+        background-color: black;
+        border: solid 0.25rem gold;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: space-between;
+    }
+
+    .icon {
+        width: 2.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 90%;
+        height: 13rem;
+        background-color: black;
+        border: solid 0.25rem gold;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: space-between;
+    }
+
+    .icon {
+        width: 2.75rem;
+    }
+    
+}
+
